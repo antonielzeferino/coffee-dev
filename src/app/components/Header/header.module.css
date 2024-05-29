@@ -62,8 +62,8 @@
 @media (width >= 768px) {
   .header {
     position: absolute;
+    height: 3rem;
     top: 0;
-    padding: 20px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-left-radius: 20px;

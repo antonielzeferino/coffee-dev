@@ -6,7 +6,6 @@
   --gray-light: #F5F5F5;
   --gray-medium: #CCCCCC;
   --gray-dark: #333333;
-  --pink-light: #FFC7DFCF;
   --gray-warm: #8B8589;
 }
 
@@ -18,6 +17,11 @@
 
 body{
   max-width: 100vw;
-  min-height: 100vh;
-  background: var(--pink-light);
+  width: 100%;
+  min-height: 100vh;  
+  background: var(--gray-medium);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -1,3 +1,4 @@
+import Offers from "./components/Offers/Offers";
 import styles from "./page.module.css"
 
 export default function Home() {
@@ -5,12 +6,19 @@ export default function Home() {
     <main className={styles.main}>
       <section className={styles.banner}>
         <h1 className={styles.bannerTitle}>
-          <strong>Café dev</strong> Sabor e Energia para o Seu Dia
+          <strong>Coffee dev</strong>  Flavor and Energy for Your Day
         </h1>
       </section>
-      <section >
-        
+      <section className={styles.promoSection}>
+        <article>
+          <h3>OUR DELICIOUS OFFER</h3>
+          <p>
+            Explore our exclusive range of coffee blends that cater to every taste. Whether you prefer, we have the perfect cup for you.
+          </p>
+        </article>
+        <Offers/>
       </section>
+      
     </main>
   );
 }

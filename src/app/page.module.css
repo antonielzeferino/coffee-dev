@@ -1,54 +1,87 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  align-self: center;
+  margin: 0 auto;
   width: 100%;
   min-height: 100vh;
-  /*   background-image: url("../public/Coffee\ Shop\ Landing\ Page\ Design.jpeg");
-  background-size: cover; */
-
 }
 
 .banner {
   width: 100%;
-  height: 80vh;
+  height: 70vh;
+  max-height: 440px;
   background-image: url("../public/bg-images/coffee-bg-3.jpeg");
+  background-position: 0 -5rem;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   border-bottom: 2px solid var(--brown-espresso);
 }
 
-.bannerTitle{
+.bannerTitle {
   width: 310px;
   font-size: 25px;
   color: var(--gray-light);
   text-shadow: 2px 2px 0px var(--brown-espresso);
   text-align: center;
-  margin-top: 20vh;
 }
 
-.banner h1 strong{
+.banner h1 strong {
   color: var(--brown-dark);
-  text-shadow: 1px 2px 4px var(--brown-light);
+  text-shadow: 1px 2px 3px var(--brown-light);
 }
 
+.promoSection {
+  width: 100%;
+  height: 100%;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
+.promoSection article h3 {
+  font-size: 1.5rem;
+  color: var(--brown-dark);
+  width: max-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--gray-dark);
+}
 
+.promoSection article p {
+  font-size: 10px;
+}
+
+@media (width >=375px) {
+  .banner {
+    background-position: 0 -5rem;
+  }
+}
 
 @media (width >=768px) {
   .banner {
     padding: 5rem;
-    height: 95vh;
-    background-image: url("../public/bg-images/coffee-bg-2.jpeg");
-    background-position: 0 -10rem;
+    height: 90vh;
+    max-height: 100%;
+    justify-content: center;
+    background-image: url("../public/bg-images/wood-bg.jpeg");
+    background-position: 0 -15rem;
   }
 
   .bannerTitle {
-    width: 600px;
-    font-size: 3rem;
+    width: 620px;
+    font-size: 3.5rem;
   }
-}
 
+  .promoSection article h3 {
+    font-size: 2rem;
+  }
+  }

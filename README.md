@@ -1,1 +1,1 @@
-coffee dev é uma loja ficticia a finde exercitar minhas habilidades no front end.
+coffee dev é uma loja ficticia a fin de exercitar minhas habilidades no front end.
