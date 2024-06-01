@@ -1,0 +1,22 @@
+.offer{
+  width: 85%;
+  height: 100%;
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--gray-dark);
+  text-align: center;
+}
+
+@media (width >= 768px) {
+  .offer {
+    width: 100%;
+  }
+}
+
+@media (width >= 1024px) {
+  .offer{
+    width: 1000px;
+  }
+}

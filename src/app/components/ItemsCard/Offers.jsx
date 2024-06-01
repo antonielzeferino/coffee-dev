@@ -1,4 +1,4 @@
-import OfferCard from "./OfferCard/OfferCard";
+import OfferCard from "./ItemCard/ItemCard";
 import style from "./offer.module.css";
 import coffeeImage1 from "@/public/images/special-coffee.jpeg";
 import coffeeImage2 from "@/public/images/pao-de-queijo.jpeg"

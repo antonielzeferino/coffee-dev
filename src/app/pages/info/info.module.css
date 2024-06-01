@@ -1,0 +1,40 @@
+.aboutUs {
+  padding: 20px;
+  padding-top: 4rem;
+  background-color: var(--gray-light);
+  color: #333;
+  line-height: 1.6;
+}
+
+.introduction, .ourStory, .ourMission, .ourValues, .ourTeam {
+  margin-bottom: 30px;
+}
+
+.aboutUs h1, 
+.aboutUs h2 {
+  color: #4b2c20;
+  margin-bottom: 15px;
+}
+
+.paragraph {
+  font-size: 16px;
+}
+
+.ourValues ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ourValues ul li {
+  margin: 10px 0;
+}
+
+.ourValues ul li strong {
+  color: #4b2c20;
+}
+
+@media (width < 768px) {
+  .aboutUs{
+    padding-top: 1rem;
+  }
+}

@@ -1,4 +1,4 @@
-import Offers from "./components/Offers/Offers";
+import Offers from "./components/ItemsCard/Offers";
 import styles from "./page.module.css"
 
 export default function Home() {
@@ -16,9 +16,9 @@ export default function Home() {
             Explore our exclusive range of coffee blends that cater to every taste. Whether you prefer, we have the perfect cup for you.
           </p>
         </article>
-        <Offers/>
+          <Offers />
       </section>
-      
+
     </main>
   );
 }

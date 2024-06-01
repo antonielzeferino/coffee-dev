@@ -40,16 +40,16 @@
 }
 
 .navItem:nth-child(1) span::after{
-  content: "Inicio";
+  content: "Home";
 }
 .navItem:nth-child(2) span::after{
-  content: "Sobre nós";
+  content: "About";
 }
 .navItem:nth-child(3) span::after{
-  content: "Nosso menu";
+  content: "Menu";
 }
 .navItem:nth-child(4) span::after{
-  content: "Comprar";
+  content: "Shop";
 }
 
 .navItem:hover span,
