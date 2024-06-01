@@ -7,7 +7,7 @@ export default function Footer() {
         <div className={styles.footerSection}>
           <h4>About Us</h4>
           <p>
-            At Coffee Dev, we're passionate about providing the best coffee experience. Our beans are sourced from top growers and roasted to perfection.
+            At Coffee Dev, we are passionate about providing the best coffee experience. Our beans are sourced from top growers and roasted to perfection.
           </p>
         </div>
         
