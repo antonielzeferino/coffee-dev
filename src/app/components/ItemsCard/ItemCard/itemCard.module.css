@@ -10,6 +10,12 @@
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  transition: transform 1s ease;
+  transform: scale(1);
+}
+
+.itemsCard:hover{
+  transform: scale(1.05);
 }
 
 .itemsCard h5 {
@@ -18,9 +24,27 @@
   color: var(--brown-espresso);
 }
 
+.addBtn{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--brown-light);
+}
+
+.priceCartWrapper{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.priceCartWrapper span{
+  color: rgb(19, 243, 19);
+}
+
 @media (width <=768px) {
   .itemsCard {
-    width: min-content;
+    width: 250px;
     padding: 20px 30px;
   }
 }

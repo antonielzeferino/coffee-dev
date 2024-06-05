@@ -20,7 +20,7 @@ function Menu() {
       <div id={styles.menu}>
         <section className={styles.navigation}>
           <h1>Discover Our Breakfast Menu</h1>
-          <p>Explore our selection of premium coffee, delicious snacks, and convenient takeaway options. Each item is crafted with the finest ingredients to ensure an exceptional breakfast experience. Browse through our menu to find your new morning favorite.</p>
+          <p>Please note that the names and images of items displayed are for illustrative purposes only. Actual products may vary in appearance, name and description.</p>
           <nav className={styles.mobileNav}>
             <ul>
               <li

@@ -1,5 +1,5 @@
 import { menuData } from './menuData.js';
-import OfferCard from "../ItemsCard/ItemCard/ItemCard.jsx";
+import ItemsCard from "../ItemsCard/ItemCard/ItemCard.jsx";
 import styles from "./menuCarousel.module.css"
 
 function MenuCarousel({ menuType }) {
@@ -9,13 +9,8 @@ function MenuCarousel({ menuType }) {
         <h3 className={styles.carouselTitle}>Our Coffee Options</h3>
         <div className={styles.carousel}>
           {menuData.coffee.map((item) => (
-            <span key={"1-" + item.id}>
-              <OfferCard
-                title={item.title}
-                text={item.description}
-                imgSrc={item.url}
-                imgAlt={item.alt}
-              />
+            <span key={item.id}>
+              <ItemsCard item={item}/>
             </span>
           ))}
         </div>
@@ -24,13 +19,8 @@ function MenuCarousel({ menuType }) {
         <h3 className={styles.carouselTitle}>Snacks to Start Your Day Right</h3>
         <div className={styles.carousel}>
           {menuData.snack.map((item) => (
-            <span key={"2-" + item.id}>
-              <OfferCard
-                title={item.title}
-                text={item.description}
-                imgSrc={item.url}
-                imgAlt={item.alt}
-              />
+            <span key={item.id}>
+              <ItemsCard item={item}/>
             </span>
           ))}
         </div>
@@ -39,13 +29,8 @@ function MenuCarousel({ menuType }) {
         <h3 className={styles.carouselTitle}>Takeout Convenience</h3>
         <div className={styles.carousel}>
           {menuData.takeaway.map((item) => (
-            <span key={"3-" + item.id}>
-              <OfferCard
-                title={item.title}
-                text={item.description}
-                imgSrc={item.url}
-                imgAlt={item.alt}
-              />
+            <span key={item.id}>
+              <ItemsCard item={item}/>
             </span>
           ))}
         </div>
