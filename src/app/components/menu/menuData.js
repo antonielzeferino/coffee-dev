@@ -234,7 +234,7 @@ export const menuData = {
       title: "House Special Coffee",
       description: "Enjoy our house special coffee, made with hand-picked beans and roasted to perfection to deliver the most authentic flavor.",
       url: img1,
-      quantity: 0,
+      quantity: 1,
       price: 2.50,
       alt: "Image of house special coffee",
       id: 22
@@ -243,7 +243,7 @@ export const menuData = {
       title: "Coffee and Cheese Bread Combo",
       description: "Take advantage of our exclusive combo with fresh coffee and cheese bread made on the spot, a perfect combination for any time of day.",
       url: img2,
-      quantity: 0,
+      quantity: 1,
       price: 3.75,
       alt: "Image of a coffee and cheese bread combo",
       id: 23
@@ -252,7 +252,7 @@ export const menuData = {
       title: "Iced Coffee with Milk",
       description: "Cool down with our delicious iced coffee with milk, ideal for hot days. Made with high-quality coffee and fresh milk.",
       url: img3,
-      quantity: 0,  
+      quantity: 1,  
       alt: "Image of iced coffee with milk",
       id: 24,
       price: 4.00,
