@@ -30,12 +30,16 @@
   background-color: var(--brown-light);
 }
 
+.addBtn.clicked {
+  background-color: rgb(19, 243, 19);
+}
+
 .priceCartWrapper{
   display: flex;
   justify-content: space-between;
   gap: 20px;
   align-items: center;
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 .priceCartWrapper span{

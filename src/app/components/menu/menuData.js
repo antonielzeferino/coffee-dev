@@ -20,6 +20,9 @@ import takeaway_1 from "@/public/images/takeaway/_1.jpeg";
 import takeaway_2 from "@/public/images/takeaway/_2.jpeg";
 import takeaway_3 from "@/public/images/takeaway/_3.jpeg";
 import takeaway_4 from "@/public/images/takeaway/_4.jpeg";
+import img1 from "@/public/images/special-coffee.jpeg";
+import img2 from "@/public/images/pao-de-queijo.jpeg";
+import img3 from "@/public/images/café-gelado.jpeg";
 
 export const menuData = {
   coffee: [
@@ -226,4 +229,33 @@ export const menuData = {
       price: 4.50
     }
   ],
+  offers: [
+    {
+      title: "House Special Coffee",
+      description: "Enjoy our house special coffee, made with hand-picked beans and roasted to perfection to deliver the most authentic flavor.",
+      url: img1,
+      quantity: 0,
+      price: 2.50,
+      alt: "Image of house special coffee",
+      id: 22
+    },
+    {
+      title: "Coffee and Cheese Bread Combo",
+      description: "Take advantage of our exclusive combo with fresh coffee and cheese bread made on the spot, a perfect combination for any time of day.",
+      url: img2,
+      quantity: 0,
+      price: 3.75,
+      alt: "Image of a coffee and cheese bread combo",
+      id: 23
+    },
+    {
+      title: "Iced Coffee with Milk",
+      description: "Cool down with our delicious iced coffee with milk, ideal for hot days. Made with high-quality coffee and fresh milk.",
+      url: img3,
+      quantity: 0,  
+      alt: "Image of iced coffee with milk",
+      id: 24,
+      price: 4.00,
+    },
+  ]
 };
