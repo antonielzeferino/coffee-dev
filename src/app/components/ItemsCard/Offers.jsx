@@ -6,7 +6,9 @@ function Offers() {
   return (
     <div className={style.offer}>
       {menuData.offers.map((item) => (
-        <OfferCard item={item} />
+        <div key={item.id}>
+          <OfferCard item={item} />
+        </div>
       ))}
     </div>
   );
