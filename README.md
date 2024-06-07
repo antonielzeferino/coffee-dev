@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 ``` bash
 
-git clone https://github.com/yourusername/coffeedev.git
+git clone https://github.com/antonielzeferino/coffeedev.git
 - cd coffeedev
 - npm install
 - npm run dev 
